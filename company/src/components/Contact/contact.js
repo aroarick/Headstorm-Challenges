@@ -34,10 +34,7 @@ function Contact() {
           <Button variant="primary" type="submit">
             Submit
           </Button>
-          <ReCaptcha
-            sitekey="6LcBUscUAAAAAE0tHcgT0mIdU527Pz-93hqQcOb1"
-            action="homepage"
-          />
+          <ReCaptcha sitekey="6LcBUscUAAAAAE0tHcgT0mIdU527Pz-93hqQcOb1" />
         </Form>
       </Container>
     </>
