@@ -21,7 +21,7 @@ function Contact() {
           </Form.Group>
           <Form.Group>
             <Form.Label>Your Message</Form.Label>
-            <Form.Control as="textArea" placeholder="Your message" rows="4" />
+            <Form.Control as="textarea" placeholder="Your message" rows="4" />
           </Form.Group>
           <p>
             <a href="https://policies.google.com/privacy">Privacy Policy</a> and
@@ -35,7 +35,7 @@ function Contact() {
             Submit
           </Button>
           <ReCaptcha
-            sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
+            sitekey="6LcBUscUAAAAAE0tHcgT0mIdU527Pz-93hqQcOb1"
             action="homepage"
           />
         </Form>

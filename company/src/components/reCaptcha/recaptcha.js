@@ -11,7 +11,7 @@ class Recaptcha extends Component {
     return (
       <div>
         <ReCaptcha
-          sitekey="your_site_key"
+          sitekey="6LcBUscUAAAAAE0tHcgT0mIdU527Pz-93hqQcOb1"
           action="action_name"
           verifyCallback={this.verifyCallback}
         />

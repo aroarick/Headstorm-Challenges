@@ -6,11 +6,8 @@ import Contact from "./components/Contact/contact.js";
 
 import { loadReCaptcha } from "react-recaptcha-v3";
 
-function componentDidMount() {
-  loadReCaptcha("6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI");
-}
-
 function App() {
+  loadReCaptcha("6LcBUscUAAAAAE0tHcgT0mIdU527Pz-93hqQcOb1");
   return (
     <>
       <div>
